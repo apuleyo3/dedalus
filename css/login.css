@@ -1,0 +1,17 @@
+@font-face {font-family:'Roboto';src: url('../fonts/Roboto-Regular.ttf') format('truetype');}
+@font-face {font-family:'Roboto-bold';src: url('../fonts/Roboto-Bold.ttf') format('truetype');}
+div#login-wrapper * {display: block;}
+div#login-wrapper {width: 98%;display: block;margin: auto;}
+body {margin: 0;background: #f1f1f1;}
+body *{font-family: 'Roboto';}
+div#login-inner-wrap {height: 100%;min-height: 350px;width: 500px;margin: 10% auto 0;padding: 40px;box-shadow: 1px 1px 7px 0 #999;background-color:white;}
+div#login-gen span {display: inline-block;margin: 0 0 20px;text-align: center;}
+div#logo {width: 130px;height: 100px;background: url(/images/ifslogo.png);margin: auto;background-size: contain;background-repeat: no-repeat;background-position: center;}
+div#login-gen span {display: inline-block;margin: 0 0 20px;line-height: 1.5;}
+div#send-pass:hover {background: #333;}
+div#login-inner-wrap input {padding: 10px;width: 100%;margin: 0 0 1px;background: #f1f1f1;border: navajowhite;font-size: 18px;color:#333;}
+div#send-pass {width: 100%;text-align: center;padding: 10px;background: #3cbfef;color: white;font-size: 22px;cursor: pointer;}
+button#send-pass {width: 520px;padding: 10px;background: #3cbfef;border: none;color: white;font-size: 20px;}
+span#copyright {display: inline-block;text-align: center;width: 100%;font-size: 12px;font-weight: 600;color: #999;margin: 0 0 30px !important;}
+div#msg-block {text-align: center;margin: 25px 0 0;color: #d86767;}
+div#icarus-logo {width: 140px;height: 50px;margin: 30px auto 0;background: url(/images/icarus_min.png);background-size: contain;background-position: center;background-repeat: no-repeat;}

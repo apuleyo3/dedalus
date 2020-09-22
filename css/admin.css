@@ -1,0 +1,95 @@
+.sys-block span {
+    display: block;
+    margin: 5px 0;
+    font-size: 20px;
+}
+div#cip.men-icon {
+    position: absolute;
+    bottom: 5px;
+    left: 300px;
+    height: 18px !important;
+    width: 18px !important;
+}
+div#self-ip:hover div#cip {
+    left: 160px;
+}
+.dash-elem {
+    margin: 15px;
+    width: 44%;
+    padding: 20px;
+    float: left;
+    min-height: 350px;
+    box-shadow: 1px 1px 2px #999;
+    background: white;
+}
+span.service-status span {
+    display: block;
+}
+.output-sec {
+    display: inline-block;
+    padding: 40px 0 !important;
+    width: 100%;
+}
+h2.dash-title {
+    margin: 0 0 15px;
+    color: #20b5ea !important;
+}
+.service-val {
+    display: inline-block;
+    margin: 10px;
+    border-bottom: 1px solid #999;
+    padding: 0 0 15px;
+    line-height: 1.5;
+}
+div#main-wrapper {
+    padding: 0 0 80px;
+}
+li.test-name ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+    height: 0;
+    overflow: hidden;
+}
+li.test-name:hover ul {
+    height: 35px;
+}
+li.test-name ul li {
+    display: inline-block;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    background: #7eb741;
+    border-radius: 50px;
+    margin: 0 5px;
+    color: white;
+    cursor: pointer;
+}
+li.test-name ul li:hover {
+    background: #999;
+}
+.left-panel ul {
+    list-style-type: none;
+    padding: 0;
+}
+span.serv-name {
+    font-size: 20px;
+}
+span.service-status {
+    position: relative;
+    display: inline-block;
+}
+span.service-status ul li:first-child:before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    left: 37px;
+    background: #48d848;
+}
+span.icarus-model {
+    font-size: 16px;
+    color: #888888;
+}

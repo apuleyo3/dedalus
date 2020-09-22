@@ -1,0 +1,43 @@
+[
+    {
+        "key": "gearUnsafe",
+        "dref": "sim/cockpit/warnings/annunciators/gear_unsafe",
+        "type": "LED",
+        "value": "int",
+        "ports" : [
+            2, 3, 4
+        ]
+    },
+    {
+        "key": "gearDeployRatio",
+        "dref": "sim/flightmodel2/gear/deploy_ratio",
+        "type": "LED",
+        "value": "int",
+        "ports" : [
+            5, 6, 7
+        ]
+    },
+    {
+        "key": "pilotHeat",
+        "dref": "sim/cockpit2/annunciators/pitot_heat",
+        "type": "LED",
+        "value": "int",
+        "ports" : 8
+    },
+    {
+        "key": "pilotHeatOff",
+        "dref": "sim/cockpit/warnings/annunciators/pitot_heat_off",
+        "type": "LED",
+        "value": "int",
+        "ports" : 9
+    },
+    {
+        "key": "generator",
+        "dref": "sim/cockpit2/annunciators/generator",
+        "type": "LED",
+        "value": "int",
+        "ports" : [
+            10, 11
+        ]
+    }
+]

@@ -1,0 +1,147 @@
+[
+    {
+        "key": "gearDeploy",
+        "dref": "sim/aircraft/parts/acf_gear_deploy",
+        "type": "SWITCH",
+        "value": "int",
+        "ports" : [
+            15,16
+        ]
+    },
+    {
+        "key": "batteryOn",
+        "dref": "sim/cockpit2/electrical/battery_on",
+        "type": "SWITCH",
+        "value": "int",
+        "ports" : 17
+    },
+    {
+        "key": "generatorOn",
+        "dref": "sim/cockpit/electrical/generator_on",
+        "type": "SWITCH",
+        "value": "int[8]",
+        "ports" : [
+            18,19
+        ]
+    },
+    {
+        "key": "avionicsOn",
+        "dref": "sim/cockpit/electrical/avionics_on",
+        "type": "SWITCH",
+        "value": "int",
+        "ports" : 20
+    },
+    {
+        "key": "propSyncOn",
+        "dref": "sim/cockpit2/switches/prop_sync_on",
+        "type": "SWITCH",
+        "value": "int",
+        "ports" : 21
+    },
+    {
+        "key": "pilotHeatOn",
+        "dref": "sim/cockpit/switches/pitot_heat_on",
+        "type": "SWITCH",
+        "value": "int",
+        "ports" : [
+            22,23
+        ]
+    },
+    {
+        "key": "iceAOAheat",
+        "dref": "sim/cockpit/switches/anti_ice_AOA_heat",
+        "type": "SWITCH",
+        "value": "int",
+        "ports" : 24
+    },
+    {
+        "key": "iceWindowHeatOn",
+        "dref": "sim/cockpit2/ice/ice_window_heat_on",
+        "type": "SWITCH",
+        "value": "int",
+        "ports" : 25
+    },
+    {
+        "key": "iceWindowHeatOn",
+        "dref": "sim/cockpit/switches/anti_ice_surf_heat",
+        "type": "SWITCH",
+        "value": "int",
+        "ports" : 26
+    },
+    {
+        "key": "icePropHeat",
+        "dref": "sim/cockpit/switches/anti_ice_prop_heat",
+        "type": "SWITCH",
+        "value": "int",
+        "ports" : 27
+    },
+    {
+        "key": "fuelPumpOn",
+        "dref": "sim/cockpit/engine/fuel_pump_on",
+        "type": "SWITCH",
+        "value": "int[8]",
+        "ports" : [
+            28,29
+        ]
+    },
+    {
+        "key": "fuelPumpOn",
+        "dref": "sim/cockpit2/controls/parking_brake_ratio",
+        "type": "SWITCH",
+        "value": "int",
+        "ports" : 30
+    },
+    {
+        "key": "ignitionKey",
+        "dref": "sim/cockpit2/engine/actuators/ignition_key",
+        "type": "SWITCH",
+        "value": "int",
+        "ports" : [
+            31, 32, 33, 34, 35, 36, 37, 38, 39, 40
+        ]
+    },
+    {
+        "key": "strobeLightsOn",
+        "dref": "sim/cockpit/electrical/strobe_lights_on",
+        "type": "SWITCH",
+        "value": "int",
+        "ports" : 41
+    },
+    {
+        "key": "beaconLightsOn",
+        "dref": "sim/cockpit/electrical/beacon_lights_on",
+        "type": "SWITCH",
+        "value": "int",
+        "ports" : 42
+    },
+    {
+        "key": "taxiLightOn",
+        "dref": "sim/cockpit/electrical/taxi_light_on",
+        "type": "SWITCH",
+        "value": "int",
+        "ports" : 43
+    },
+    {
+        "key": "navLightsOn",
+        "dref": "sim/cockpit/electrical/nav_lights_on",
+        "type": "SWITCH",
+        "value": "int",
+        "ports" : 44
+    },
+    {
+        "key": "landLightsOn",
+        "dref": "sim/cockpit/electrical/landing_lights_on",
+        "type": "SWITCH",
+        "value": "int",
+        "ports" : 45
+    },
+    {
+        "key": "flapRatio",
+        "dref": "sim/cockpit2/controls/flap_ratio",
+        "type": "SWITCH",
+        "value": "int",
+        "ports" : [
+            46,47,48
+        ]
+    }
+]
